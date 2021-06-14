@@ -1,0 +1,107 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	height: 100vh;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container {
+	height: 300px;
+	width: 400px;
+	background: #62306d;
+	position: relative;
+}
+
+.spirit1-square {
+	height: 100px;
+	width: 100px;
+	background: #f7ec7d;
+	position: absolute;
+	bottom: 0;
+	left: 50px;
+}
+
+.spirit1-circle1 {
+	height: 100px;
+	width: 100px;
+	background: #aa445f;
+	position: absolute;
+	bottom: 50px;
+	border-radius: 50%;
+	left: 50px;
+}
+
+.spirit1-circle2 {
+	height: 60px;
+	width: 60px;
+	background: #e38f66;
+	position: absolute;
+	bottom: 70px;
+	border-radius: 50%;
+	left: 70px;
+}
+
+.spirit3-square {
+	height: 100px;
+	width: 100px;
+	background: #f7ec7d;
+	position: absolute;
+	bottom: 0;
+	left: 250px;
+}
+
+.spirit3-circle1 {
+	height: 100px;
+	width: 100px;
+	background: #aa445f;
+	position: absolute;
+	bottom: 50px;
+	border-radius: 50%;
+	left: 250px;
+}
+
+.spirit3-circle2 {
+	height: 60px;
+	width: 60px;
+	background: #e38f66;
+	position: absolute;
+	bottom: 70px;
+	border-radius: 50%;
+	left: 270px;
+}
+
+.spirit2-square {
+	height: 200px;
+	width: 100px;
+	background: #f7ec7d;
+	position: absolute;
+	bottom: 0;
+	left: 150px;
+}
+
+.spirit2-circle1 {
+	height: 100px;
+	width: 100px;
+	background: #e38f66;
+	position: absolute;
+	bottom: 150px;
+	border-radius: 50%;
+	left: 150px;
+}
+
+.spirit2-circle2 {
+	height: 60px;
+	width: 60px;
+
+	background: #aa445f;
+	position: absolute;
+	bottom: 170px;
+	border-radius: 50%;
+	left: 170px;
+}
